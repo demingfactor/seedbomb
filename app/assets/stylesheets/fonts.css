@@ -1,0 +1,8 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "OpenMoji", sans-serif;
+}
+
+@font-face {
+  font-family: "OpenMoji";
+  src: local("OpenMoji"), url("OpenMoji.woff2");
+}
