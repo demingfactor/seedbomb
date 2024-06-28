@@ -22,6 +22,7 @@ Calagator.setup do |config|
   # Also configure 'admin_email', 'admin_username', and 'admin_password' for Calagator
   # to create the initial admin user.
   config.devise_enabled = true
+  config.open_registration = false
 
   # If devise is enabled, the following will configure authorization
   # to CRUD various resources.

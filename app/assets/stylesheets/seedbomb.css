@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+body > #outer {
+  max-width: 1536px;
+  width: 100%;
+}
+
+/* Nav section */
+#global_header {
+  background-color: transparent;
+}
+
+#global_header a, #global_header .a-like {
+  color: black;
+}
+
+#global_header #project_title {
+  position: static;
+  color: black;
+  text-transform: lowercase;
+}
+
+#global_header > #site_title {
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+}
+
+#global_header > #site_title p {
+  margin-bottom: 0.5rem;
+}
+
+#global_header > #site_nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2.5rem;
+  color: black;
+}
+
+#global_header > #site_nav > ul {
+  display: flex;
+  list-style-type: none;
+  text-transform: lowercase;
+  margin-left: 0px;
+  margin-right: 0.25rem;
+}
+
+#global_header > #site_nav #hot_topics {
+  text-transform: lowercase;
+
+}
+
+#global_header > #site_nav > .site-links li:not(:first-child)::before {
+  content: "|";
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+#global_header > #site_nav > .curation-links li:not(:first-child)::before {
+  content: ",";
+  margin-right: 0.25rem;
+}
+
+#global_header > #site_nav > ul a.active {
+  font-weight: bold;
+}
