@@ -1,0 +1,9 @@
+<% on_nav :events, :root do %>
+  <%= link_to "Add an Event", new_event_path, class: "font-bold" %>
+<% end %>
+<% on_nav :venues do %>
+  <%= link_to "Add a Venue", new_venue_path, class: "font-bold" %>
+<% end %>
+<% if Calagator.devise_enabled %>
+  <span class="first:hidden">|</span>
+<% end %>

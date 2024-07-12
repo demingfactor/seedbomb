@@ -66,3 +66,18 @@ body > #outer {
 #global_header > #site_nav > ul a.active {
   font-weight: bold;
 }
+
+#devise_header {
+  position: static;
+  display: inline;
+}
+
+#top_menu_items {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+}
+
+:first-child.first\:hidden {
+  display: none;
+}

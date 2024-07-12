@@ -20,8 +20,11 @@
 
   <div id="top_menu">
     <%= render partial: 'layouts/calagator/global_search' %>
-    <% if Calagator.devise_enabled %>
-      <%= render partial: 'layouts/calagator/devise' %>
-    <% end %>
+    <div id="top_menu_items">
+      <%= render partial: 'layouts/calagator/top_menu' %>
+      <% if Calagator.devise_enabled %>
+        <%= render partial: 'layouts/calagator/devise' %>
+      <% end %>
+    </div>
   </div>
 </div>
