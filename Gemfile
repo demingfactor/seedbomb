@@ -65,3 +65,4 @@ end
 gem "koalagator", github: "koalagator/koalagator", branch: "main"
 
 gem "dockerfile-rails", ">= 1.6", :group => :development
+gem "postmark-rails"
