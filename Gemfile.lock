@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/koalagator/koalagator.git
-  revision: ad3bd0caba36621b2a3bb1aa1095d8951ee00d2f
+  revision: 9d1d07a7af425fc89720815d9f8e3af4a80c45a8
   branch: main
   specs:
     koalagator (5.0.0)
@@ -124,8 +124,8 @@ GEM
       tzinfo (~> 2.0)
     acts-as-taggable-on (10.0.0)
       activerecord (>= 6.1, < 7.2)
-    addressable (2.8.6)
-      public_suffix (>= 2.0.2, < 6.0)
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
     annotate (3.2.0)
       activerecord (>= 3.2, < 8.0)
       rake (>= 10.4, < 14.0)
@@ -161,7 +161,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    dockerfile-rails (1.6.10)
+    dockerfile-rails (1.6.22)
       rails (>= 3.0.0)
     domain_name (0.6.20240107)
     drb (2.2.1)
@@ -202,7 +202,7 @@ GEM
     irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    jbuilder (2.12.0)
+    jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     jquery-rails (4.6.0)
@@ -276,8 +276,8 @@ GEM
     pr_geohash (1.0.0)
     psych (5.1.2)
       stringio
-    public_suffix (5.1.1)
-    puma (6.4.2)
+    public_suffix (6.0.1)
+    puma (6.4.3)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.8)
@@ -372,8 +372,9 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (4.20.1)
+    selenium-webdriver (4.25.0)
       base64 (~> 0.2)
+      logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -426,7 +427,7 @@ GEM
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
     webrick (1.8.2)
-    websocket (1.2.10)
+    websocket (1.2.11)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)

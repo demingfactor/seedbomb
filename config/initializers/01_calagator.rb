@@ -72,6 +72,9 @@ Calagator.setup do |config|
   # The tiles to use for the map, see the docs for individual Leaflet plugins.
   config.mapping_tiles = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 
+  # Set tag cloud to work with any tag
+  config.tag_cloud_min = 1
+
   # Other mapping examples:
   #
   # Stamen
