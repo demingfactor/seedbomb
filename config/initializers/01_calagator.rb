@@ -73,7 +73,7 @@ Calagator.setup do |config|
   config.mapping_tiles = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 
   # Set tag cloud to work with any tag
-  config.tag_cloud_min = 1
+  config.tag_cloud_min = 2
 
   # Other mapping examples:
   #
