@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/koalagator/koalagator.git
-  revision: 9d1d07a7af425fc89720815d9f8e3af4a80c45a8
+  revision: db5a86e52470bdbdc71c0b78cbc63a6d7ded4679
   branch: main
   specs:
     koalagator (5.0.0)
@@ -211,11 +211,11 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
-    json (2.7.3)
+    json (2.7.4)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
     logger (1.6.1)
-    loofah (2.23.0)
+    loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     loofah-activerecord (2.0.0)
