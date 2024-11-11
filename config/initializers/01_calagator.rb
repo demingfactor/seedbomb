@@ -14,6 +14,10 @@ Calagator.setup do |config|
   # and requests for assistance from users:
   config.administrator_email = "dev@demingfactor.com"
 
+  # Caching helps when the site gets popular, but delays when events hit the homepage
+  # Turn this off when starting out, flip it one when things start to slow down.
+  config.cache_enabled = false
+
   # Enable devise based authentication
   # Calagator won't load any devise config unless it's enabled,
   # allowing you to roll your own authentication instead, if desired.
