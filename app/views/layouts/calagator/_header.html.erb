@@ -1,22 +1,24 @@
 <div id="global_header">
-  <div id="site_title">
-    <%= link_to "seedbomb.au", root_path, id: "project_title" %>
-    <p>Community events for Change Makers on Kaurna Country.</p>
-  </div>
+  <div id="top_info">
+    <div id="site_title">
+      <%= link_to "seedbomb.au", root_path, id: "project_title" %>
+      <p>Community events for Change Makers on Kaurna Country.</p>
+    </div>
 
-  <nav id="site_nav">
-    <ul class="site-links">
-      <li><%= link_to "About", about_path, class: active_on(:about) %></li>
-      <li><%= link_to "Events", events_path, class: active_on(:events) %></li>
-      <li><%= link_to "Venues", venues_path, class: active_on(:venues) %></li>
-      <li class="secondary">Hot Topics:</li>
-    </ul>
-    <ul class="curation-links">
-      <%= render partial: "calagator/shared/subnav_curations", :locals => { :curations => Calagator::Curation.order_by_priority } %>
-      <%= render partial: "calagator/shared/subnav_pinned_venues", :locals => { :venues => Calagator::Venue.pinned } %>
-      <%= render partial: "calagator/events/subnav_custom" %>
-    </ul>
-  </nav>
+    <nav id="site_nav">
+      <ul class="site-links">
+        <li><%= link_to "About", about_path, class: active_on(:about) %></li>
+        <li><%= link_to "Events", events_path, class: active_on(:events) %></li>
+        <li><%= link_to "Venues", venues_path, class: active_on(:venues) %></li>
+        <li class="secondary">Hot Topics:</li>
+      </ul>
+      <ul class="curation-links">
+        <%= render partial: "calagator/shared/subnav_curations", :locals => { :curations => Calagator::Curation.order_by_priority } %>
+        <%= render partial: "calagator/shared/subnav_pinned_venues", :locals => { :venues => Calagator::Venue.pinned } %>
+        <%= render partial: "calagator/events/subnav_custom" %>
+      </ul>
+    </nav>
+  </div>
 
   <div id="top_menu">
     <%= render partial: 'layouts/calagator/global_search' %>
