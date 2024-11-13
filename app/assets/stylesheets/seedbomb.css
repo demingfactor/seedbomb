@@ -26,6 +26,13 @@ body #outer {
   }
 }
 
+@media screen and (max-width: 960px) {
+  #global_header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 #global_header a, #global_header .a-like {
   color: black;
 }
