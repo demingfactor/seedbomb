@@ -99,6 +99,9 @@ body #outer {
 }
 
 #top_menu #search_form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
   position: static;
   margin-bottom: 0.25rem;
 }
