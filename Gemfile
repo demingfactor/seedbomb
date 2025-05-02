@@ -12,9 +12,6 @@ gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 2.5.0"
 
-# Postgres database adapter.
-gem 'pg'
-
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
@@ -69,3 +66,4 @@ gem "koalagator", github: "koalagator/koalagator", branch: "main"
 
 gem "dockerfile-rails", ">= 1.6", :group => :development
 gem "postmark-rails"
+gem "pg", "~> 1.5"
