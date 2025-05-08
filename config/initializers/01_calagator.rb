@@ -39,9 +39,9 @@ Calagator.setup do |config|
   config.user_resources = %i[events venues]
 
   # Optional username and password to use when accessing /admin pages
-  config.admin_email = 'dev@seedbomb.au'
-  config.admin_username = 'admin'
-  config.admin_password = ENV['KOALAGATOR_ADMIN_PASSWORD']
+  config.admin_email = "dev@seedbomb.au"
+  config.admin_username = "admin"
+  config.admin_password = ENV["KOALAGATOR_ADMIN_PASSWORD"]
 
   # Emoji used as administrator icon
   config.admin_icon = "🐨"
