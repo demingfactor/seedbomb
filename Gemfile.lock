@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/koalagator/koalagator.git
-  revision: 5eddc43b67690f99cd704e5ce1854ab461a3fd94
+  revision: 36be4d184164983c2582754e832a07c378c29ddb
   branch: main
   specs:
     koalagator (5.0.0)
